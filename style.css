@@ -1,0 +1,16 @@
+.Header{
+    column-count: 2;
+    
+}
+.Menu{
+    column-count: 3;
+}
+.Model{
+    break-inside: avoid;
+}
+.Models{
+    column-count: 3;
+}
+.Footer{
+    column-count: 3;
+}
