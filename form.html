@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="SMALL-CAR-SHOP" content="FORM">
+    <title>SMALL CAR SHOP</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/form.css">
+    <link type="image/png" sizes="16x16" rel="icon" href="./assets/icons/icons8-car-16.png">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend> Personal info</legend>
+            <div>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name">
+            </div>
+            <div>
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name">
+            </div>
+            <div>
+                <label for="date">Birthday</label>
+                <input type="datetime-local" id="date">
+            </div>
+            <div>
+                <p>Gender</p>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender">
+        
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender">
+
+            </div>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Contacts</legend>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email">  
+            </div>
+            <div>
+                <label for="phone">Phone</label>
+                <input type="text" id="phone">
+            </div>
+            <div>
+               <!---<label for="addres">Address</label> -->
+                <textarea name="Addres" id="addres" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+
+       <fieldset>
+       <legend>Car info</legend>
+       <div>
+        <label for="brand">Brand</label>
+        <select id="brand">
+            <option value="---" selected>---</option>
+            <option value="value1">Ford</option>
+            <option value="value2">Toyota</option>
+            <option value="value3">Bmw</option>
+           </select>
+       </div>
+       
+       <div>
+        <label for="model">Model</label>
+        <select id="model">
+            <option value="---" selected>---</option>
+            <option value="value1">Ford Puma</option>
+            <option value="value2">FORD KUGA</option>
+            <option value="value3">Ford Ranger</option>
+            <option value="value4">TOYOTA CAMRY</option>
+            <option value="value5">TOYOTA COROLLA</option>
+            <option value="value6">TOYOTA YARIS</option>
+            <option value="value7">BMW 220i GRAN COUPE</option>
+            <option value="value8">BMW i7 xDrive60</option>
+            <option value="value9">BMW M3</option>
+           </select>
+       </div>
+       <div>
+        <label for="user">User</label>
+        <input type="checkbox" id="user">
+       </div>
+       <div>
+        <p>Color</p>
+        <label for="red">Red</label>
+        <input type="radio" id="red" name="color">
+
+        <label for="black">Black</label>
+        <input type="radio" id="black" name="color">
+
+        <label for="while">While</label>
+        <input type="radio" id="while" name="color">
+
+        <label for="grey">Grey</label>
+        <input type="radio" id="grey" name="color">
+       </div>
+
+       <div>
+        <label for="price">Price</label>
+        <input 
+        type="range" 
+        id="price"
+        min="100"
+        max="1000"
+        step="100"
+        list="pri"
+        >
+        <datalist id="pri">   
+            <option value="100" label="100"></option>
+            <option value="200" label="200"></option>
+            <option value="300" label="300"></option>
+            <option value="400" label="400"></option>
+            <option value="500" label="500"></option>
+            <option value="600" label="600"></option>
+            <option value="700" label="700"></option>
+            <option value="800" label="800"></option>
+            <option value="900" label="900"></option>
+            <option value="1000" label="1000"></option>
+        </datalist>
+       </div>
+       </fieldset>
+       <div>
+        <input type="button" id="button-cancel" value="Cancel">
+        <input type="submit" id="button-ok" value="OK">
+       </div>
+    </form>
+</body>
+</html>
