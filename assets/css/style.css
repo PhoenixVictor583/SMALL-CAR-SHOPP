@@ -5,9 +5,6 @@
 .menu{
     column-count: 3;
 }
-.model{
-    break-inside: avoid;
-}
 .models{
     column-count: 3;
 }
