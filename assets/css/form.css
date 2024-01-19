@@ -1,7 +1,51 @@
-datalist{
+*{
+    margin: 5px;
+}
+
+form{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    margin: 50px;
+    font-size: 25px;
+}
+.main{
+
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}
+fieldset{
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.cell{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-around;
+}
+select{
+    width: 180px;
+}
+.footer{
+
     display:flex;
     justify-content: space-between;
-    width: 100%;
+    flex-direction: row;
+}
+datalist{
+    width: 100;
+    display:flex;
+    justify-content: space-between;
 }
 optgroup{
     padding: 0;
@@ -10,6 +54,11 @@ input[type='range']{
 width: 100%;
 margin: 1%;
 }
-form{
-    width: 20%;
+.footer>*{
+    margin: 20px 50px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: lightgray;
+    font-size: 15px;
 }

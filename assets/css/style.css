@@ -1,16 +1,45 @@
+* {
+    margin: 0px;
+}
+
 .header{
-    column-count: 2;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    border: 3px solid darkblue;
+}
+.header ul{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    border: 3px solid darkblue;
+    list-style: none;
+}
+.header li{
+    display: inline-block;  
+    border: 3px solid black;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    height: 100px;
+    font-family: 'Times New Roman', Times, serif;
     
+   
+    
+    
+    
+    
+    
+   
 }
-.menu{
-    column-count: 3;
-}
-.models{
-    column-count: 3;
-}
-.footer{
-    column-count: 3;
-}
+.header div{
+    display: inline-block;
+    border: 3px solid black;
+    width: 15%;
+}  
+    
+
+
 /*TABLE*/
 table{
     table-layout: fixed;
